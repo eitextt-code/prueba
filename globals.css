@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+
+background:#F7F3EB;
+
+color:#222;
+
+font-family:var(--font-body);
+
+}
+
+h1,h2,h3,h4{
+font-family:var(--font-title);
+}
+
+section{
+
+padding:120px 8%;
+
+}
+
+.container{
+max-width:1400px;
+margin:auto;
+}
